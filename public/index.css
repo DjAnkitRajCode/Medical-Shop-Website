@@ -1,0 +1,103 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.index{
+    height: 100vh;
+    background-image: url(images/cover4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.highlight{
+    border-bottom: 2px solid white;
+    border-radius: 1px;
+}
+.nav-link:hover{
+     border-bottom: 2px solid #a8fffb !important;
+    transition: all ease 0.4s;
+}
+.cimg{
+    height: 130px;
+}
+.cardImage{
+    border-radius: 50%;
+    width: 50%;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: 25%;
+}
+.founder{
+    background-image: linear-gradient(#a8fffb,#44a9ff);
+    padding: 10px;
+}
+.card1{
+    color: white;
+    align-content: center;
+    border-radius: 10px;
+    background-image: linear-gradient(#a8fffb,#44a9ff);
+    box-shadow: 12px 12px 16px 0 rgba(0,0,0,0.25),
+        -8px -8px 12px 0 rgba(0,0,0,0.08);
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+.card1:hover{
+      transform: scale(1.01) translateY(5px);
+}
+.card1 img{
+    padding: 3px;
+    box-shadow:inset 12px 12px 16px 0 rgba(0,0,0,0.25),
+       inset -8px -8px 12px 0 rgba(255,255,255,0.15);
+}
+.phnumber{
+    letter-spacing: 1px;
+}
+.sidebar{
+    width: 95%;
+    margin-left: 2.5%;
+    height: 40px;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(155deg,#0065af 70%,#0c0329 60%);
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all ease 0.4s;
+}
+.sidebar:hover{
+     transform: scale(1.05) translateZ(2px);
+}
+.slide{
+    height: 340px !important;
+}
+.ad1{
+    width: 100%;
+    height: 150px !important;
+    margin-bottom: 15px;
+}
+.ad2{
+    width: 100%;
+    height: 150px !important;
+}
+.main{
+    background-image: linear-gradient(#00121f,#003b67,#0065af,#a8fffb);
+}
+/*footer*/
+#footer{
+    background-color: #0088fc;
+    height: 280px;
+}
+.line{
+    width: 1px;
+    background-color: rgba(255, 255, 255, 0.38);
+    height: 220px;
+    margin-top: 30px;
+}
+.logo{
+    width: 25px;
+    margin-right: 5px;
+}
